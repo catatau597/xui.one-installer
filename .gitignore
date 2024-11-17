@@ -1,0 +1,46 @@
+# Build and installation files
+/home/xui/
+*.tar.gz
+*.zip
+XUI_*.zip
+xui_crack.tar.gz
+
+# Docker files
+/config/
+/logs/
+*.log
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files
+/var/lib/mysql/
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+/tmp/
+/temp/
+
+# Package files
+*.deb
+*.rpm
+
+# Credentials
+credentials.txt

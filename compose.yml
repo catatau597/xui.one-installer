@@ -1,0 +1,23 @@
+services:
+  xui-one:
+    build: .
+    container_name: xui-one
+    environment:
+      - MYSQL_ROOT_PASSWORD=agasta
+      - MYSQL_DATABASE=xui
+      - MYSQL_USER=xui_user
+      - MYSQL_PASSWORD=agasta
+    ports:
+      - "80:80"
+      - "443:443"
+      - "3306:3306"
+    volumes:
+      - ./config:/home/xui/config
+      - ./logs:/var/log/xui
+      - xui-data:/home/xui
+      - mysql-data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  xui-data:
+  mysql-data:

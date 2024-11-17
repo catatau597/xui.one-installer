@@ -1,0 +1,51 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+
+# Logs and databases
+*.log
+logs/
+*.sqlite
+*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile*
+docker-compose*
+.docker/
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Test files
+test/
+tests/
+*.test.*
+
+# Configuration files that will be mounted as volumes
+config/
