@@ -111,7 +111,7 @@ if __name__ == "__main__":
        # os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null 2>&1')
         #os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential > /dev/null 2>&1')
         #os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get -y build-dep php7.4 > /dev/null 2>&1')
-        os.system('sudo wget https://raw.githubusercontent.com/amidevous/xui.one/master/build-php.sh -O /root/build-php.sh > /dev/null 2>&1')
+        os.system('sudo wget https://raw.githubusercontent.com/catatau597/xui.one/master/build-php.sh -O /root/build-php.sh > /dev/null 2>&1')
         os.system('cd /root && sudo bash /root/build-php.sh > /dev/null 2>&1')
         os.system('sudo rm -rf /root/build-php.sh > /dev/null 2>&1')
         if not os.path.exists("/home/xui/status"):
@@ -123,7 +123,7 @@ if __name__ == "__main__":
         #os.system('sudo apt-get update > /dev/null 2>&1')
         #os.system('sudo apt-get -y install build-essential > /dev/null 2>&1')
         #os.system('sudo apt-get -y build-dep php7.4 > /dev/null 2>&1')
-        os.system('sudo wget https://raw.githubusercontent.com/amidevous/xui.one/master/build-php.sh -O /root/build-php.sh > /dev/null 2>&1')
+        os.system('sudo wget https://raw.githubusercontent.com/catatau597/xui.one/master/build-php.sh -O /root/build-php.sh > /dev/null 2>&1')
         os.system('cd /root && sudo bash /root/build-php.sh > /dev/null 2>&1')
         os.system('sudo rm -rf /root/build-php.sh > /dev/null 2>&1')
         if not os.path.exists("/home/xui/status"):
@@ -245,7 +245,7 @@ if __name__ == "__main__":
     time.sleep(10)
     os.system("sudo /home/xui/status 1  >/dev/null 2>&1")
     time.sleep(60)
-    os.system("sudo wget https://github.com/amidevous/xui.one/releases/download/test/xui_crack.tar.gz -qO /root/xui_crack.tar.gz >/dev/null 2>&1")
+    os.system("sudo wget https://github.com/catatau597/xui.one/releases/download/test/xui_crack.tar.gz -qO /root/xui_crack.tar.gz >/dev/null 2>&1")
     os.system("sudo tar -xvf /root/xui_crack.tar.gz >/dev/null 2>&1")
     os.system("sudo systemctl stop xuione >/dev/null 2>&1")
     os.system("sudo cp -r license /home/xui/config/license >/dev/null 2>&1")
